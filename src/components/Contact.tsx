@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import SectionTitle from './SectionTitle';
 import Image from 'next/image';
 import contactImg from '../../public/assets/images/contactImg.8ddfbfd11798f881db54.png'
-import { SlSocialFacebook, SlSocialLinkedin, SlSocialYoutube } from 'react-icons/sl';
+import { SlSocialTwitter, SlSocialLinkedin, SlSocialGithub } from 'react-icons/sl';
 
 const Contact = () => {
 
@@ -56,22 +56,22 @@ const Contact = () => {
              <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
              <div className='flex gap-4'>
 
-             <a href='' target='_blank'>
+             <a href='https://github.com/vanelnw' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                    <SlSocialYoutube />
+                    <SlSocialGithub />
                 </span>
             </a>
-            <a href='' target='_blank'>
+            <a href='https://www.linkedin.com/in/va-nw/' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                     <SlSocialLinkedin/>
                 </span>
             </a>
-            <a href='' target='_blank'>
+            <a href='https://twitter.com/VanelNw' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                    <SlSocialFacebook />
+                    <SlSocialTwitter />
                 </span>
             </a>
 

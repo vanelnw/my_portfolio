@@ -8,7 +8,7 @@ const About = () => {
   return (
     <motion.section 
         initial={{y:30,opacity:0}} 
-        animate={{y:0,opacity:1}} 
+        whileInView={{y:0,opacity:1}} 
         transition={{duration:0.6,delay:0.7}}
         id='about' 
         className='max-w-containerSmall mx-auto py-1 lgl:py-32 flex flex-col gap-8'

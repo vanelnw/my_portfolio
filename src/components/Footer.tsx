@@ -1,12 +1,12 @@
 import React from 'react'
 import { TbBrandGithub } from 'react-icons/tb';
-import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin, SlSocialYoutube } from 'react-icons/sl';
+import { SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin, SlSocialYoutube } from 'react-icons/sl';
 
 const Footer = () => {
   return (
     <div className="app__footer bg-[#112240] text-white py-8 px-6 md:py-12 md:px-8">
     <div className="footer-container max-w-7xl mx-auto flex flex-col items-center justify-center gap-6">
-      <div className="about group md:text-center">
+      <div className="group text-center">
         <h2 className="text-4xl font-semibold bg-clip-text text-transparent bg-gradient-to-t from-transparent to-white">
           Vanel Nwaba
         </h2>
@@ -24,7 +24,12 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#work" className="text-white">
+            <a href="#skills" className="text-white">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="text-white">
               Projects
             </a>
           </li>
@@ -36,19 +41,19 @@ const Footer = () => {
         </ul>
 
       <div className='flex gap-4'>
-            <a href='' target='_blank'>
+            <a href='https://github.com/vanelnw' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                     <TbBrandGithub />
                 </span>
             </a>
-            <a href='' target='_blank'>
+            {/* <a href='' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                     <SlSocialYoutube />
                 </span>
-            </a>
-            <a href='' target='_blank'>
+            </a> */}
+            <a href='https://www.linkedin.com/in/va-nw/' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                     <SlSocialLinkedin/>
@@ -60,10 +65,10 @@ const Footer = () => {
                     <SlSocialFacebook />
                 </span>
             </a>
-            <a href='' target='_blank'>
+            <a href='https://twitter.com/VanelNw' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                    <SlSocialInstagram />
+                    <SlSocialTwitter />
                 </span>
             </a>
         </div>
