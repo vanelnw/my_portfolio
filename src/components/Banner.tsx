@@ -80,8 +80,6 @@ const Banner = () => {
               See My Past Work
             </a>
         </div>
-
-
       </div>
       <motion.div 
          
