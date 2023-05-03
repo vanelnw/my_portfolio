@@ -1,6 +1,7 @@
 import medical from '../public/assets/images/medical.png'
 import bookMyRide from '../public/assets/images/bookMyRide.png'
 import dataTeller from '../public/assets/images/datateller.png'
+import cryptoTracker from '../public/assets/images/cryptoTracker.png'
 
 export const projects = [
 
@@ -10,7 +11,7 @@ export const projects = [
       subtitle: "React js + Node js",
       stacks: ['Html', 'Css', 'Javascript'],
       description:
-        "Medical website landing page. users can book and appointment depending of the speciality and the doctor avaibility.",
+        "Medical website landing page. Users can book and appointment depending of the speciality and the doctor's avaibility.",
       image: medical,
       link: "https://vanelnw.github.io/Microverse-Capstone1/",
       github: "https://github.com/vanelnw/Microverse-Capstone1"
@@ -32,11 +33,22 @@ export const projects = [
       subtitle: "React js + API",
       stacks: ['Javascript','React js', 'Ant Design', 'Node Js'],
       description:
-        "Web application that allows a doctor to manage their appointments. They can create or modify an appointment and check the status of each appointment.",
+        "A web-based application has been developed to facilitate appointment management for doctors. This application enables doctors to create or modify appointments according to their schedules, as well as check the status of each appointment. By using this tool, doctors can efficiently manage their appointments and ensure they meet their commitments.",
       image:dataTeller,
       link: "https://datatellers-test.onrender.com/",
       github: "https://github.com/vanelnw/medical-appointment-system"
     },
+
+    {
+      id:4,
+      title: "Crypto Tracker",
+      subtitle: "React js + API",
+      stacks: ['Javascript','React js', 'Chart JS', 'Material UI'],
+      image:cryptoTracker,
+      link: "https://yabadev-crypto-tracker.netlify.app/",
+      github: "https://github.com/vanelnw/Crypto-tracker-app",
+      description: "This application provides users with the ability to search for information related to any cryptocurrency based on its name. Upon logging in, users can add their preferred currencies to a wishlist and stay up-to-date with the latest news about cryptocurrency. The app is built using the React Js framework and is hosted on Netlify."
+    }
   ];
 
   export const skills = [

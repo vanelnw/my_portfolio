@@ -54,7 +54,7 @@ const Navbar = () => {
                         animate={{y: 0, opacity:1}} 
                         transition={{duration:0.1}}
                     >
-                        home
+                        Home
                     </motion.li>
                   </Link>
                   <Link 

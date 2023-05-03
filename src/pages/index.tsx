@@ -10,6 +10,7 @@ import Archieve from '@/components/Archieve'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import Skills from '@/components/Skills'
+import ScrollToTop from '@/components/ScrollToTop'
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
               <Contact />
               {/* {Footer} */}
               <Footer />
+              {/* <ScrollToTop /> */}
             </div>
             <motion.div 
               initial={{opacity:0}} 

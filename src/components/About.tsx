@@ -17,19 +17,15 @@ const About = () => {
         <div className='flex flex-col lgl:flex-row gap-16'>
             <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
                 <p>
-                I am web developer with 3+ years of experience. 
-                I have a strong foundation in front-end & back-end development 
-                and am skilled in creating user-friendly and responsive web applications 
-                using React and its ecosystem.
+                With over three years of experience as a web developer, I have honed my skills in both front-end and back-end development. My expertise lies in creating intuitive, user-friendly, and responsive web applications using React and its associated ecosystem.
+                In addition, I also have experience working with Ruby on Rails, a popular web application framework. 
                 </p>
                 <p>
-                Since begining of my journey as a developer, I had the privilege of working at <span className='text-textGreen'> an advertising agency, a start-up, non-profit organization </span>, and collaborated with talented people to create digital products for both business and customer use.
+                Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as  <span className='text-textGreen'>  advertising agencies, start-ups, and non-profit organizations </span>,and collaborated with talented individuals to create digital products for both business and consumer use.
+                My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
                 </p>
                 <p>
-              I&apos;m quietly confident, naturally curious, and
-              perpetually working on improving my coding problem at a time. I
-              can provide clean code and pixel perfect design. I can olso make
-              the more interactive with web animations. check out my portfolio.
+                I&apos;m quietly confident, naturally curious, and perpetually working on improving my coding skills, one problem at a time. If you&apos;re looking for someone who can turn your ideas into reality, then look no further! Check out my portfolio to see my work and let&apos;s connect to discuss your project.
                 </p>
 
                 <a href='/assets/CV-Nwaba Vanel.pdf' target='_blank'>

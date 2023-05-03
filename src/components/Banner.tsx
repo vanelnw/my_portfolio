@@ -27,9 +27,11 @@ const Banner = () => {
             Vanel Nwaba. 
             <span className='title text-2xl md:text-4xl text-textDark mt-2 lgl:mt-4'>I Design and develop expreriences that make people&apos;s life simple..</span>
         </motion.h1>
-        {/* <motion.p className='text-base md:max-w-[650px] text-textDark font-medium'>
-            I am web developer with 3+ years of experience in React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosyatem.
-        </motion.p> */}
+        <motion.p className='text-base md:max-w-[650px] text-textDark font-medium'>
+          As a seasoned software developer, I possess the expertise to help you bring your vision to life. 
+          Whether it&apos;s a cutting-edge product, a feature enhancement, or a visually stunning website, 
+          I have the skills and experience to make it happen.
+        </motion.p>
 
         <div className='flex gap-4 xl:hidden'>
             <a href='https://github.com/vanelnw' target='_blank'>

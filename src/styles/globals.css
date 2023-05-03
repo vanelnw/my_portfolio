@@ -291,3 +291,27 @@
         transform: translateY(-2000px);
     }
 }
+
+
+
+.scrollToTop-btn {
+  z-index: 9999999999999;
+ float:right;
+  width: 35px;
+  height: 35px;
+  /* background: #1d60cb; */
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollToTop-btn.active {
+  pointer-events: all;
+  opacity: 1;
+}
