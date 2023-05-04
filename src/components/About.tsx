@@ -14,18 +14,33 @@ const About = () => {
         className='max-w-containerSmall mx-auto py-1 lgl:py-32 flex flex-col gap-8'
     >
         <SectionTitle title="About Me" titleNumber="01"/>
-        <div className='flex flex-col lgl:flex-row gap-16'>
-            <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4'>
+        <div className='flex flex-col lgl:flex-row items-center gap-10'>
+            <div className='w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-3'>
                 <p>
-                With over three years of experience as a web developer, I have honed my skills in both front-end and back-end development. My expertise lies in creating intuitive, user-friendly, and responsive web applications using React and its associated ecosystem.
-                In addition, I also have experience working with Ruby on Rails, a popular web application framework. 
+                With 3+ years of experience as a web developer, I have honed my skills in both front-end and back-end development. My expertise lies in creating intuitive, user-friendly, and responsive web applications using React and its associated technologies, such as Redux and React Router.
+                I also build applications with Ruby on Rails using the Model-View-Controller (MVC) pattern. Additionally, I use RESTful APIs for seamless frontend-backend communication.
                 </p>
                 <p>
-                Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as  <span className='text-textGreen'>  advertising agencies, start-ups, and non-profit organizations </span>,and collaborated with talented individuals to create digital products for both business and consumer use.
-                My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
+                Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as <span className='text-textGreen'>advertising agencies, start-ups, and non-profit organizations </span> , and collaborated with talented individuals to create digital products for both business and consumer use. My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
                 </p>
+                {/* <p>
+                    I love applying responsive design principles and watching my web pages shrink into mobiles screens and dtill look amazing. It&apos;s oddly satisfing.I think in a way I&apos;m kind of those web pages; I&apos;m moldable, but I still keep my creative flare intact.
+                </p> */}
                 <p>
-                I&apos;m quietly confident, naturally curious, and perpetually working on improving my coding skills, one problem at a time. If you&apos;re looking for someone who can turn your ideas into reality, then look no further! Check out my portfolio to see my work and let&apos;s connect to discuss your project.
+                My specialties include <span className='text-textGreen'> quickly learning new skills and programming languages</span>,
+                    <span className='text-textGreen'> problem-solving</span>, <span className='text-textGreen'>responsive design principles</span>, 
+                    <span className='text-textGreen'>website optimisation</span>, and 
+                    <span className='text-textGreen'> Model-View-Conroller (MVC)</span> methods of organizing code. So far i have 
+                    <span className='text-textGreen'> Javascript</span>,<span className='text-textGreen'> HTML</span>, <span className='text-textGreen'>CSS</span>, 
+                    <span className='text-textGreen'> C#</span>, <span className='text-textGreen'>Bootstrap</span>, 
+                    <span className='text-textGreen'> Ruby</span>, <span className='text-textGreen'>Ruby on Rails </span>
+                    and <span className='text-textGreen'>Git/GitHub</span> under my belt. I&apos;ve started learning 
+                    <span className='text-textGreen'> Node.JS</span>, <span className='text-textGreen'>MongoDB</span>, and 
+                    <span className='text-textGreen'> Express.JS</span>. 
+                    I still enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into the coding web in my head </p>
+                 <p>
+
+                 I&apos;m quietly confident and naturally curious. If you&apos;re looking for someone who can turn your ideas into reality, then look no further! Check out my portfolio to see my work and let&apos;s connect to discuss your project.
                 </p>
 
                 <a href='/assets/CV-Nwaba Vanel.pdf' target='_blank'>

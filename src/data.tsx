@@ -7,11 +7,11 @@ export const projects = [
 
     {
       id:1,
-      title: "Midical",
+      title: "Medical",
       subtitle: "React js + Node js",
       stacks: ['Html', 'Css', 'Javascript'],
       description:
-        "Medical website landing page. Users can book and appointment depending of the speciality and the doctor's avaibility.",
+        "This is a landing page for a medical website where users can book appointments based on the doctor's availability and the specific medical specialty required.",
       image: medical,
       link: "https://vanelnw.github.io/Microverse-Capstone1/",
       github: "https://github.com/vanelnw/Microverse-Capstone1"
