@@ -1,6 +1,6 @@
 import React from 'react'
 import { TbBrandGithub } from 'react-icons/tb';
-import { SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin, SlSocialYoutube } from 'react-icons/sl';
+import { SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin } from 'react-icons/sl';
 
 const Footer = () => {
   return (
@@ -47,12 +47,6 @@ const Footer = () => {
                     <TbBrandGithub />
                 </span>
             </a>
-            {/* <a href='' target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
-                justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                    <SlSocialYoutube />
-                </span>
-            </a> */}
             <a href='https://www.linkedin.com/in/va-nw/' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
@@ -76,7 +70,6 @@ const Footer = () => {
       <p className="text-base font-light">&copy; 2023 All Rights Reserved</p>
     </div>
     </div>
-
   </div>
   )
 }

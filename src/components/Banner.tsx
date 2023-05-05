@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin, SlSocialYoutube } from 'react-icons/sl'
+import { SlSocialFacebook, SlSocialTwitter, SlSocialLinkedin } from 'react-icons/sl'
 import { TbBrandGithub } from 'react-icons/tb'
 import Anime from './Anime'
 import { BsArrowDown } from 'react-icons/bs'
@@ -40,12 +40,6 @@ const Banner = () => {
                     <TbBrandGithub />
                 </span>
             </a>
-            {/* <a href='' target='_blank'>
-                <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
-                justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
-                    <SlSocialYoutube />
-                </span>
-            </a> */}
             <a href='https://www.linkedin.com/in/va-nw/' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>

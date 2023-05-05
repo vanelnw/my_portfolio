@@ -1,6 +1,5 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
-import {AiFillThunderbolt} from "react-icons/ai"
 import Cube from './Cube'
 import {motion} from 'framer-motion'
 
@@ -23,9 +22,6 @@ const About = () => {
                 <p>
                 Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as <span className='text-textGreen'>advertising agencies, start-ups, and non-profit organizations </span> , and collaborated with talented individuals to create digital products for both business and consumer use. My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
                 </p>
-                {/* <p>
-                    I love applying responsive design principles and watching my web pages shrink into mobiles screens and dtill look amazing. It&apos;s oddly satisfing.I think in a way I&apos;m kind of those web pages; I&apos;m moldable, but I still keep my creative flare intact.
-                </p> */}
                 <p>
                 My specialties include <span className='text-textGreen'> quickly learning new skills and programming languages</span>,
                     <span className='text-textGreen'> problem-solving</span>, <span className='text-textGreen'>responsive design principles</span>, 
@@ -53,8 +49,7 @@ const About = () => {
                     >
                         Resume
                     </motion.button>
-                </a>
-                
+                </a> 
             </div>
             <div className='w-full flex items-center justify-center lgl:w-1/3 h-80 relative group'> 
             <div className='bg-animation'>
