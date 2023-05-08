@@ -33,11 +33,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project"></a>
+# 📖 [Vanel's Portfolio] <a name="about-project"></a>
 
 > This is a web application that I've created as a Portfolio of projects.
 
-**[Portfolio Project]** is web application.
+**[vanel's Portfolio]** is web application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -124,7 +124,6 @@ To run tests, run the following command:
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
 ```
 --->
 
