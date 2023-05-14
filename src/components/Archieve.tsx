@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import ArchieveCard from './ArchieveCard'
-import { motion } from 'framer-motion';
 import { projects } from '@/data';
 import Project from './Project';
 
@@ -20,36 +18,7 @@ const Archieve = () => {
             {projects.map((project) => (
                 <Project key={project.github}  project={project} />
             ))}
-            {/* <ArchieveCard />
-            <ArchieveCard />
-            <ArchieveCard />
-            <ArchieveCard />
-            <ArchieveCard />
-            <ArchieveCard />
-            {
-                showMore && (
-                    <>
-                    <motion.div
-                      initial={{opacity: 0}}
-                      whileInView={{opacity: 1}}
-                      transition={{delay: 0.1}}
-                    >
-            <ArchieveCard />
-            <ArchieveCard />
-            <ArchieveCard />
-                    </motion.div>
-                    </>
-                )
-            } */}
         </div>
-        {/* <div className='mt-12 flex justify-center'>
-            <button 
-              className='w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
-              onClick={() => setShowMore(true)}
-            >
-                Show more
-            </button>
-        </div> */}
     </div>
   )
 }
