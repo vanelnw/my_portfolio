@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { projects } from '@/data';
 import Project from './Project';
 
 const Archieve = () => {
-    const [showMore, setShowMore] = useState(false);
 
   return (
     <div className='max-w-contentContainer mx-auto px-4 pj-24'>
