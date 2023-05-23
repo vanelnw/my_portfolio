@@ -31,8 +31,7 @@ const About = () => {
                     <span className='text-textGreen'> C#</span>, <span className='text-textGreen'>Bootstrap</span>, 
                     <span className='text-textGreen'> Ruby</span>, <span className='text-textGreen'>Ruby on Rails </span>
                     and <span className='text-textGreen'>Git/GitHub</span> under my belt. I&apos;ve started learning 
-                    <span className='text-textGreen'> Node.JS</span>, <span className='text-textGreen'>MongoDB</span>, and 
-                    <span className='text-textGreen'> Express.JS</span>. 
+                    <span className='text-textGreen'> PHP</span>, and <span className='text-textGreen'>Laravel</span>.
                     I still enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into the coding web in my head </p>
                  <p>
 
