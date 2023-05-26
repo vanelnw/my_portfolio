@@ -37,7 +37,7 @@
 
 > This is a web application that I've created as a Portfolio of projects.
 
-**[vanel's Portfolio]** is web application.
+**[vanel's Portfolio]** is my personnal website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
