@@ -20,7 +20,7 @@ const About = () => {
                 I also build applications with Ruby on Rails using the Model-View-Controller (MVC) pattern. Additionally, I use RESTful APIs for seamless frontend-backend communication.
                 </p>
                 <p>
-                Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as <span className='text-textGreen'>advertising agencies, start-ups, and non-profit organizations </span> , and collaborated with talented individuals to create digital products for both business and consumer use. My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
+                Throughout my journey as a developer, I&apos;ve had the privilege of working in diverse environments such as <span className='text-textGreen'>start-ups, and non-profit organizations </span> , and collaborated with talented individuals to create digital products for both business and consumer use. My passion for coding and design has enabled me to provide clean code and pixel-perfect designs that meet the highest standards.
                 </p>
                 <p>
                 My specialties include <span className='text-textGreen'> quickly learning new skills and programming languages</span>,
@@ -29,6 +29,7 @@ const About = () => {
                     <span className='text-textGreen'> Model-View-Conroller (MVC)</span> methods of organizing code. So far i have 
                     <span className='text-textGreen'> Javascript</span>,<span className='text-textGreen'> HTML</span>, <span className='text-textGreen'>CSS</span>, 
                     <span className='text-textGreen'> C#</span>, <span className='text-textGreen'>Bootstrap</span>, 
+                    <span className='text-textGreen'> React</span>, <span className='text-textGreen'> Next.js</span>, <span className='text-textGreen'> Node.js</span>,
                     <span className='text-textGreen'> Ruby</span>, <span className='text-textGreen'>Ruby on Rails </span>
                     and <span className='text-textGreen'>Git/GitHub</span> under my belt. I&apos;ve started learning 
                     <span className='text-textGreen'> PHP</span>, and <span className='text-textGreen'>Laravel</span>.

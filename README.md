@@ -129,10 +129,10 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+This project is deployed on:
 
 ```sh
-  npm run build
+  Versel
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
