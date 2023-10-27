@@ -79,61 +79,42 @@ const skills = [
   },
 ];
 
+const clientsData = [
+	[{ name: 'javascript',icon:js }],
+	[{ name: 'php',icon:css }, { name:'ruby',icon:HTML }],
+	[{ name: 'React',icon:react }, { name: 'rails', icon:rails }, { name: 'laravel', icon:node}],
+	[{ name: 'GIT',icon:vc }, { name: 'netflix',icon:db }],
+	[{ name: 'facebook',icon:api }],
+];
+
 const Skills = () => {
   return (
-    <div id='skills' className='max-w-containerSmall mx-auto py-24 lgl:py-32 flex flex-col gap-8'>
+    <div id='skills' className='max-w-containerSmall mx-auto py-24 lgl:py-32 flex flex-col gap-8 '>
        <SectionTitle title="Skills" titleNumber="03"/>
-       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 md:px-10'>
-       <div className='w-full h-auto rounded-lg bg-[rgba(51,194,255,8%)] hover:bg-[#033b51] p-5 flex flex-col items-center gap-9'>
-       <div className='w-full flex gap-5 justify-center items-center'>
-                <AiOutlineCode className='text-5xl text-textGreen'/>
-                <span className='text-2xl md:text-3xl'>Languages</span>
-            </div>
-            <div className="flex gap-5 flex-wrap skills-content ">
-            {languages?.map((skill, i) => (
-                <div className="w-[45%] md:w-full flex gap-2 items-center p-1 bg-snow justify-between rounded-lg shadow-md  hover:scale-110
-                " key={i}>
-                  <Image src={skill.icon} alt={skill.subtitle} className='w-[40px] h-[40px]' />
-                  <h3>{skill.subtitle}</h3>
-                </div>
-              ))}
-            </div>
-        </div>
+    
+      
+      <div className="relative mx-auto">
+        <div className="w-full max-w-[1300px] mx-auto p-[30px] md:px-0 lg:p-[50px]">
 
-        <div className='w-full h-auto rounded-lg bg-[rgba(51,194,255,8%)] hover:bg-[#033b51] p-5 flex flex-col items-center gap-9'>
-            <div className='w-full flex gap-5 justify-center items-center'>
-            <FaLaptopCode className='text-5xl text-textGreen'/>
-            <span className='text-2xl md:text-3xl'>Frameworks</span>
-            </div>
-            <div className="flex gap-5 flex-wrap skills-content ">
-            {frameworks?.map((skill, i) => (
-                <div className="w-[45%] md:w-full flex gap-2 items-center p-1 bg-snow justify-between rounded-lg shadow-md  hover:scale-110
-                " key={i}>
-                  <Image src={skill.icon} alt={skill.subtitle} className='w-[40px] h-[40px]' />
-                  <h3>{skill.subtitle}</h3>
-                </div>
-              ))}
-            </div>
+				<div className='flex flex-col items-center justify-center md:flex-row'>
+					{clientsData.map((clients, clientsIndex) => (
+						<div className='flex flex-col justify-center items-center m-[.4rem]' key={clientsIndex}>
+							{clients.map((el, index) => (
+								<div className='py-[6px] px-[30px] lg:py-[10px] lg:px-[40px] text-black rounded-2xl h-[110px] w-full shadow-md bg-[#fafeff] m-[.4rem] flex items-center justify-center transform scale-100 hover:scale-110 transition-transform duration-300 ease-in-out' key={index}>
+                  {/* <ClientImage src={`./images/companies/${el.name}.svg`} /> */}
+                  {el.name}
+                  <Image src={el.icon} alt={el.name} className='w-[40px] h-[40px]' />
+								</div>
+							))}
+						</div>
+					))}
+				</div>
         </div>
+      </div>
 
-        <div className='w-full h-auto rounded-lg bg-[rgba(51,194,255,8%)] hover:bg-[#033b51] p-5 flex flex-col items-center gap-9'>
-            <div className='w-full flex gap-5 justify-center items-center'>
-                <FaTools className='text-5xl text-textGreen'/>
-                <span className='text-2xl md:text-3xl'>Tools</span>
-            </div>
-            <div className="flex gap-5 flex-wrap skills-content ">
-            {skills?.map((skill, i) => (
-                <div className="w-[45%] md:w-full flex gap-2 items-center p-1 bg-snow justify-between rounded-lg shadow-md  hover:scale-110
-                " key={i}>
-                  <Image src={skill.icon} alt={skill.subtitle} className='w-[40px] h-[40px]' />
-                  <h3>{skill.subtitle}</h3>
-                </div>
-              ))}
-            </div>
-        </div>
-       </div>
     </div>
   )
 }
+
 
 export default Skills
