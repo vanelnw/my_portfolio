@@ -2,29 +2,31 @@ import medical from '../public/assets/images/medical.png'
 import bookMyRide from '../public/assets/images/bookMyRide.png'
 import dataTeller from '../public/assets/images/datateller.png'
 import cryptoTracker from '../public/assets/images/cryptoTracker.png'
+import devRecruit from '../public/assets/images/dev-recruit.png'
+import selmart from '../public/assets/images/selmart.png'
 
 export const projects = [
 
     {
       id:1,
-      title: "Medical",
-      subtitle: "React js + Node js",
-      stacks: ['Html', 'Css', 'Javascript'],
+      title: "Dev-Recruiting",
+      subtitle: "React js, Node, ",
+    stacks: ['React js', 'React js', 'Node','Docker', 'styled Component'],
       description:
-        "This is a landing page for a medical website where users can book appointments based on the doctor's availability and the specific medical specialty required.",
-      image: medical,
-      link: "https://vanelnw.github.io/Microverse-Capstone1/",
-      github: "https://github.com/vanelnw/Microverse-Capstone1"
+        "Dev Recruit allows current and potential members to easily discover and learn about the projects they can join that aligns with their goals and experience.",
+      image: devRecruit,
+      link: "https://devlaunchers.org/join",
+      github: "https://github.com/dev-launchers/dev-launchers-platform"
     },
     {
       id:2,
-      title: "Book My Ride",
+      title: "Selmart Electronic store",
       subtitle: "Frontend + API",
-      stacks: ['Javascript', 'React', 'Ruby on Rails'],
+      stacks: ['React', 'Ruby on Rails','TaildwindCss'],
       description:
-        "Book my Ride, is a car rental application that provides users with the ability to reserve a car for a designated time frame. It also allows users to browse through all available vehicles, view specific cars, check their own booking history, and view all reservations made by them.",
-      image:bookMyRide,
-      link: "https://rentyourcar.onrender.com/",
+        "Cutting-Edge Electronics project, a dynamic and immersive web-based experience that encapsulates the essence of modern e-commerce for electronic gadgets and devices..",
+      image:selmart,
+      link: "https://selmart.netlify.app/",
       github: "https://github.com/vanelnw/Book-My-Ride-Backend"
     },
     {

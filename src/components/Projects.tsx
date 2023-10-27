@@ -41,7 +41,8 @@ const Projects = () => {
                               <TbBrandGithub/>
                           </a>
                           <a href={project.link}
-                          className='hover:text-textGreen duration-300'
+                        className='hover:text-textGreen duration-300'
+                        target='_blank'
                           >
                               <RxOpenInNewWindow/>
                           </a>

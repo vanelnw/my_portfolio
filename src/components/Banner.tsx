@@ -10,7 +10,7 @@ const Banner = () => {
     <motion.section 
       initial={{y:10, opacity:0}} 
       animate={{y:0, opacity:1}} 
-      transition={{duration:0.5,delay:0.6}}
+      transition={{duration:0.5,delay:0.5}}
       id='home' 
       className='max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col-reverse lgl:flex-row gap-10 mdl:px-10 xl:px-4 relative'
     >
@@ -81,7 +81,7 @@ const Banner = () => {
          
           initial={{opacity:0}} 
           animate={{opacity:1}} 
-          transition={{duration:0.6,delay:1.7}}
+          transition={{duration:0.6,delay:1}}
       className='w-full flex items-center lgl:w-1/3'>
 
         <Anime />
