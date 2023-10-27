@@ -10,7 +10,7 @@ const About = () => {
         whileInView={{y:0,opacity:1}} 
         transition={{duration:0.3,delay:0.3}}
         id='about' 
-        className='max-w-containerSmall mx-auto py-1 lgl:py-32 flex flex-col gap-8'
+        className='max-w-containerSmall mx-auto py-1 lgl:pt-32 flex flex-col gap-8'
     >
         <SectionTitle title="About Me" titleNumber="01"/>
         <div className='flex flex-col lgl:flex-row items-center gap-10'>
@@ -29,7 +29,7 @@ const About = () => {
                  Quietly confident and naturally curious, I&apos;m here to bring your ideas to life. Explore my portfolio to see my work, and let&apos;s connect to discuss your project.
                 </p>
 
-                <a href='/assets/CV-Nwaba Vanel.pdf' target='_blank'>
+                <a href='/assets/Vanel-Nwaba-Resume.pdf' target='_blank'>
                     <motion.button
                         initial={{opacity:0}} 
                         animate={{opacity:1}} 

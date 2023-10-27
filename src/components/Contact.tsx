@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section id='contact'
     //className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4'
-    className='max-w-contentContainer mx-auto lgl:px-10 py-24'
+    className='max-w-contentContainer mx-auto lgl:px-10 py-32'
     >
       <SectionTitle title="Contact Me" titleNumber="04"/>
       <div className="px-5 py-2 mt-4 mx-auto flex gap:5 justify-between mdl:flex-nowrap flex-wrap">
@@ -62,7 +62,7 @@ const Contact = () => {
                     <SlSocialGithub />
                 </span>
             </a>
-            <a href='https://www.linkedin.com/in/va-nw/' target='_blank'>
+            <a href='https://www.linkedin.com/in/vanel-nwaba/' target='_blank'>
                 <span className='w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center
                 justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                     <SlSocialLinkedin/>

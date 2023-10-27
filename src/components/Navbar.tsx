@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <div className='w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4'>
         <div className='max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between'>
-            <motion.a  href="#home" initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}}>
+            <motion.a href='#home' initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.5}}>
                 <Image className='w-40' src={logo} alt='logo'/>
             </motion.a>
             <div className='hidden mdl:flex items-cemter gap-7'>
@@ -120,7 +120,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href='/assets/CV-Nwaba Vanel.pdf' target='_blank'>
+                <a href='/assets/Vanel-Nwaba-Resume.pdf' target='_blank'>
                     <motion.button
                         initial={{opacity:0}} 
                         animate={{opacity:1}} 
